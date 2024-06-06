@@ -10,7 +10,9 @@ Applitools Eyes 是其旗舰产品，是一个基于AI的自动化测试工具�
 
 __1.注册账号__
 
+https://auth.applitools.com/users/general-register
 
+> 注：必须使用企业邮箱。
 
 __2.提供的功能__
 

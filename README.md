@@ -7,24 +7,7 @@
 
 * [applitools eyes 基于视觉检查的自动化测试](./platform/applitools_eyes.md)
 
-
-### Testim.io
-
-平台化的产品：https://www.testim.io/ (需要企业邮箱注册)
-
-Testim.io 提供了一个基于AI的自动化测试平台，专注于Web和移动应用的端到端测试。这个平台包括一系列的工具和服务，旨在简化测试过程，提高测试的效率和可靠性。下面是Testim.io平台提供的具体功能和工具：
-
-* AI-Powered Test Case Generation
-
-Testim.io使用AI来创建稳定且易于维护的测试案例。通过智能分析应用程序的界面和行为，它能够自动记录测试步骤，生成测试脚本。
-
-* Smart Element Locators
-
-Testim.io的AI引擎可以智能地识别和定位用户界面元素，即使这些元素的属性发生改变，也能保持测试的稳定性和准确性。
-
-* Self-healing Tests
-
-当应用程序的UI发生变化时，Testim.io的测试会自动进行调整，减少因UI变动而导致的测试维护工作。
+* [Testim 由 AI 加持的自动化测试能力](./platform/Testim_IO.md)
 
 
 ### 未来已来，人工智能测试势不可挡：介绍9款AI测试工具 
