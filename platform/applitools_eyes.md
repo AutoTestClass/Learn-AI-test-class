@@ -33,6 +33,16 @@ __3.获取API_key__
 
 以 Python + selenium 组合编写用例。
 
+applitools 提供了 eyes-selenium库，里面包含了视觉相关的API，需要安装。
+
+* pip 安装
+
+```bash
+pip install  eyes-selenium
+```
+
+* 以下是基于eyes-selenium编写的自动化脚本。
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
