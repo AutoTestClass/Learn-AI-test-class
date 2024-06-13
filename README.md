@@ -3,7 +3,7 @@
 > 随便记录一些和AI测试相关的内容
 
 
-## 那些集成了AI能力的测试平台
+## 集成了AI能力的测试平台
 
 ### applitools
 
@@ -43,12 +43,7 @@ https://www.bilibili.com/video/BV12L41177yn
 
 ## 基于大模型的自动化解决方案
 
-* appAgent使用
-
-https://testerhome.com/topics/38601
-
-https://github.com/mnotgod96/AppAgent
-
+* [AppAgent基于通义千问VL操作App实践](./tools/AppAgent_used.md)
 
 * 使用 GPT4V+AI Agent 做自动 UI 测试的探索 | 京东云技术团队
 
@@ -77,3 +72,15 @@ https://github.com/ddupont808/GPT-4V-Act/
 
 
 [人工智能教程](https://www.cbedai.net/)
+
+
+## 总结
+
+这些天搜集了一下自动化在AI领域的进展。
+
+1. AI加持的自动化测试平台：
+   - applitools eyes、Testim、mabl 等，通过录制回放提供自动化测试用例的编写。但是，不是简单的元素定位，页面元素变了照样能回放，AI 加持下稳定性提升。
+   - 收费，背后原理不得而知。
+
+2.  一个基于LLM的多模态代理。
+   - 原理：先将web/app页面截图，添加标记。将 prompt 和 图片交给 大模型识图，
