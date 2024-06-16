@@ -11,7 +11,7 @@
 
 ### testim
 
-* [Testim 由 AI 加持的自动化测试能力](./platform/Testim_IO.md)
+* [Testim AI 加持的自动化测试平台](./platform/Testim_IO.md)
 
 ### mabl
 
