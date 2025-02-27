@@ -1,4 +1,4 @@
-## 基于 selenium 和 claude3 的AI自动工具
+## 基于 selenium 和 claude3 的AI自动化工具
 
 cerebellum是一个轻量级浏览器代理，通过键盘和鼠标操作在网页上实现用户定义的目标。
 
@@ -21,7 +21,7 @@ cerebellum是一个轻量级浏览器代理，通过键盘和鼠标操作在网�
 
 ### cerebellum 安装使用
 
-目前 cerebellum 支持 TypeScript 和 Python 两个版本。好吧！我知道大家应该之关心Python版本。
+目前 cerebellum 支持 TypeScript 和 Python 两个版本。好吧！我知道大家应该只关心Python版本。
 
 * 首先，通过 pip 安装
 
@@ -105,15 +105,17 @@ pillow 是Python的图像处理库，我的理解应该是将页面截图并进�
 
 __anthropic__
 
-anthropic 首先识别我们的自动化意图。
+anthropic 识别用于识别自动化意图。
 
 ```py
 goal = "Show me the wikipedia page of the creator of Bitcoin"
 ```
 
-基于，页面截图进行分析，识别google搜索框，首先通过 “creator of Bitcoin” 获取到比特币的创造者是：“Satoshi Nakamoto”， 然后在输入框输入：“Satoshi Nakamoto wikipedia” 并搜索。在结果中获得维基百科的连接，并打开连接。
+首先，通过 “creator of Bitcoin” 获取到比特币的创造者是：“Satoshi Nakamoto”， 再从提取“wikipedia” 关键信息，最后组成搜索关键字：“Satoshi Nakamoto wikipedia” 。
 
-![](./cerebellum-running.png)
+接下来，页面截图分析，识别google搜索框，并输入关键字并搜索，最后，在结果中获得维基百科的链接，并打开连接。
+
+![](../image/cerebellum-running.png)
 
 ### 总结
 
@@ -121,4 +123,4 @@ goal = "Show me the wikipedia page of the creator of Bitcoin"
 
 再次，表示遗憾，没弄到 `Anthropic API key` 导致上面的例子我没真正的跑一下，这偏文章写的不那么踏实了。
 
-评论区留言感兴趣，我打算花点时间把 cerebellum 替换为其他可用的模型，claude3 虽然优势明显，倒也不至于非他不可。
+感兴趣评论区留言，我打算花点时间把 cerebellum 替换为其他可用的模型，claude3 虽然优势明显，倒也不至于非他不可。

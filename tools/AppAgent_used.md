@@ -297,7 +297,7 @@ Documentation generation phase completed. 3 docs generated.
 
 ### 运行
 
-AppAgent核心提供了另一个`learn.py`脚本, 基于学习的生成的内容，使用LLM识别并操作。其实，我们也可不学习，直接运行。
+AppAgent核心提供了另一个`run.py`脚本, 基于学习的生成的内容，使用LLM识别并操作。其实，我们也可不学习，直接运行。
 
 ```bash
 > python run.py  
