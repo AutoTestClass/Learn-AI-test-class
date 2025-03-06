@@ -52,7 +52,7 @@ __4. 会话管理（Session Management）__
 
 处理客户端的连接初始化、能力协商和会话关闭。
 
-## 自定义 MCP Servers
+### 自定义 MCP Servers
 
 1. 本地实现一个文件资源服务，创建 `mcp_server.py` 文件。
 
